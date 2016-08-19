@@ -50,6 +50,7 @@
     <Compile Include="Flys.cs" />
     <Compile Include="Interfaces.cs" />
     <Compile Include="MallardDuck.cs" />
+    <Compile Include="ModelDuck.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Quacks.cs" />
   </ItemGroup>

@@ -11,6 +11,16 @@ namespace ducks
         public IFlyBehavior flyBehvaior;
         public IQuackBehavior quackBehavior;
 
+        public void setFlyBehavior(IFlyBehavior fb)
+        {
+            flyBehvaior = fb;
+        }
+
+        public void setQuackBehavior(IQuackBehavior qb)
+        {
+            quackBehavior = qb;
+        }
+
         public virtual void performQuack()
         {
             quackBehavior.quack();

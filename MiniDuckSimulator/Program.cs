@@ -11,6 +11,12 @@ namespace MiniDuckSimulator
     {
         static void Main(string[] args)
         {
+            Duck model = new ModelDuck();
+            model.performFly();
+            model.setFlyBehavior(new FlyRocketPowered());
+            model.performFly();
+
+
             Duck mallard = new MallardDuck();
             mallard.performQuack();
             mallard.performFly();
